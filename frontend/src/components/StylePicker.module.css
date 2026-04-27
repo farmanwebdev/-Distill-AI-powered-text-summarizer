@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.65rem 1rem;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+  flex: 1;
+  min-width: 90px;
+  text-align: left;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--text);
+  background: var(--surface-2);
+}
+
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btn.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: block;
+}
+
+.desc {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--text-faint);
+  display: block;
+  margin-top: 1px;
+}
+
+.active .desc { color: var(--text-muted); }
