@@ -57,11 +57,7 @@ cd ../frontend && npm install
 
 ### 3. Configure environment
 
-```bash
-cd backend
-cp .env.example .env
-# Edit .env and add your Anthropic API key
-```
+
 
 Get your API key at: https://console.anthropic.com/
 
@@ -76,16 +72,6 @@ CLIENT_URL=http://localhost:3000
 ### 4. Start both servers
 
 Open **two terminals**:
-
-```bash
-# Terminal 1 — Backend
-cd backend && npm run dev    # or: npm start
-
-# Terminal 2 — Frontend
-cd frontend && npm start
-```
-
-App opens at **http://localhost:3000**
 
 ---
 
