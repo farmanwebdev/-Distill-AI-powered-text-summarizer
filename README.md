@@ -43,13 +43,7 @@ summarizer/
 
 ## Setup & Run
 
-### 1. Clone / download the project
 
-### 2. Install dependencies
-
-```bash
-# Server
-cd backend && npm install
 
 # Client
 cd ../frontend && npm install
