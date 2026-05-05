@@ -41,13 +41,7 @@ summarizer/
 
 ---
 
-## Setup & Run
 
-
-
-# Client
-cd ../frontend && npm install
-```
 
 ### 3. Configure environment
 
