@@ -2,7 +2,7 @@
 
 A full-stack MERN app that summarizes text using the Claude AI API (Anthropic). Paste any text and get a clean, concise summary in seconds.
 
----
+
 
 ## Tech Stack
 
