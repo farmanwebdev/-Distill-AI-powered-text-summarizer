@@ -37,9 +37,6 @@ summarizer/
     ├── summarize.js         # Anthropic API integration
     ├── .env.example
     └── package.json
-```
-
----
 
 
 
