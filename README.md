@@ -54,9 +54,6 @@ CLIENT_URL=http://localhost:3000
 
 > **Demo mode:** If no API key is set, the app runs in demo mode with placeholder summaries so you can test the UI flow.
 
-### 4. Start both servers
-
-Open **two terminals**:
 
 ---
 
