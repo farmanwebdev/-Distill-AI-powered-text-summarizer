@@ -46,11 +46,6 @@ summarizer/
 
 Get your API key at: https://console.anthropic.com/
 
-```
-ANTHROPIC_API_KEY=sk-ant-...
-PORT=5000
-CLIENT_URL=http://localhost:3000
-```
 
 > **Demo mode:** If no API key is set, the app runs in demo mode with placeholder summaries so you can test the UI flow.
 
