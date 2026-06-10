@@ -13,7 +13,6 @@ A full-stack MERN app that summarizes text using the Claude AI API (Anthropic). 
 | AI       | Anthropic Claude API (Haiku)      |
 | Styling  | Custom CSS, Google Fonts (DM Sans)|
 
----
 
 ## Project Structure
 
